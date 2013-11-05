@@ -1,0 +1,12 @@
+{
+  "framework": "mocha",
+  "launch_in_dev": [
+    "Chrome"
+  ],
+  "src_files": [
+    "vendor/requirejs/require.js",
+    "vendor/expect/expect.js",
+    "app/lib/deps.min.js",
+    "tests/*"
+  ]
+}

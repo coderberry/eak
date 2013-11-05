@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "grunt-cli": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-ember-template-compiler": "1.0.6",
+    "loom": "~2.0.0",
+    "loom-generators-ember": "0.0.3",
+    "grunt": "~0.4.1",
+    "bower": "*",
+    "testem": "*",
+    "grunt-es6-module-transpiler": "~0.5.1",
+    "mocha": "~1.14.0"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}
